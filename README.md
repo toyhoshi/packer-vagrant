@@ -10,11 +10,11 @@ Baking:
 ```bash
 $ make last
 
-$ packer build -var-file vars/centos-7.6.1810.json vagrant-centos-local.json
+$ packer build -var-file vars/centos.json vagrant-centos-worker.json
 ```
 
 Local Import:
 ```bash
-$ vagrant box add 'sbeliakou/centos-7.6-x86_64-minimal' sbeliakou-vagrant-centos-7.6-x86_64-minimal.box
+$ vagrant box add 'centos-7.6-x86_64-minimal' vagrant-centos-7.6-x86_64-minimal.box
 ```
 

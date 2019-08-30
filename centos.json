@@ -81,6 +81,8 @@
                 "scripts": [
                   "scripts/base.sh"
                 ]
+            }
+        }
       }
     ]
   }
